@@ -167,7 +167,7 @@ void BST<type>::insert(int k, type node){
 
 //return bool if there is node w certain key in tree
 template <class type>
-bool BST<type>::search(int k){
+bool BST<type>::searchNode(int k){
   if(root == NULL){ //if empty tree
     return false;
   }
